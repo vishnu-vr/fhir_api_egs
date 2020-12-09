@@ -1,0 +1,32 @@
+{
+    "resourceType":"Patient",
+    "name":[
+        {
+            "use": "official",
+            "given": ["Vishnu"],
+            "family": "Ramesh"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1999-01-16",
+    "telecom": [
+        {
+            "value": "9544123123",
+            "use": "mobile"
+        },
+        {
+            "system": "email",
+            "value": "me@mycompany.com"
+        }
+    ],
+    "address": [
+        {
+            "line": [
+                "123 dorothy hoyse"
+            ],
+            "city": "manipal",
+            "state": "karnataka",
+            "postalCode": "123123"
+        }
+    ]
+}

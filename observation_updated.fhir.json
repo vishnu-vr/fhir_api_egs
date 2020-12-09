@@ -1,0 +1,24 @@
+{
+    "resourceType":"Observation",
+    "status": "corrected",
+    "id": "1708107",
+    "code": {
+        "coding": [
+            {
+                "system": "https://Ioinic.org/",
+                "code": "15074-8",
+                "display": "Glucose [Moles/volume] in Blood"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/1708096",
+        "display": "Vishnu Ramesh"
+    },
+    "valueQuantity": {
+        "value": 4.2,
+        "unit": "mol/l",
+        "system": "https://unitsofmeasure.org/",
+        "code": "mmol/L"
+    }
+}

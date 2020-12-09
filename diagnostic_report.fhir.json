@@ -1,0 +1,22 @@
+{
+    "resourceType":"DiagnosticReport",
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "https://Ioinic.org/",
+                "code": "15074-8",
+                "display": "Diagnostic Report"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/1708096",
+        "display": "Vishnu Ramesh"
+    },
+    "result": [
+        {
+            "reference": "Observation/1708107"
+        }
+    ]
+}

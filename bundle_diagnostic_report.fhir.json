@@ -1,0 +1,63 @@
+{
+    "resourceType":"Bundle",
+    "type":"transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:observation_1",
+            "resource":{
+                "resourceType":"Observation",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://Ioinic.org/",
+                            "code": "15074-8",
+                            "display": "Glucose [Moles/volume] in Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/1708096",
+                    "display": "Vishnu Ramesh"
+                },
+                "valueQuantity": {
+                    "value": 6.3,
+                    "unit": "mol/l",
+                    "system": "https://unitsofmeasure.org/",
+                    "code": "mmol/L"
+                }
+            },
+            "request": {
+                "method": "POST"
+            }
+        },
+        {
+            "resource":{
+                "resourceType":"DiagnosticReport",
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://Ioinic.org/",
+                            "code": "someCode",
+                            "display": "Diagnostic Report"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/1708096",
+                    "display": "Vishnu Ramesh"
+                },
+                "result": [
+                    {
+                        "type": "Observation",
+                        "reference": "urn:uuid:observation_1"
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST"
+            }
+        }
+    ]
+}
