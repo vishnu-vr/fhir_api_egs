@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "diabetic",
+        "tests": [
+            {
+                "name": "hba1c",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://loinc.org/",
+                            "code": "4548-4",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ]
+                },
+                "field": {
+                    "f_name": "Percentage Hgb",
+                    "input_type": "number",
+                    "unit": "% Hgb"
+                }
+            },
+            {
+                "name": "blood sugar",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://Ioinc.org/",
+                            "code": "15074-8",
+                            "display": "Glucose [Moles/volume] in Blood"
+                        }
+                    ]
+                },
+                "field": {
+                    "f_name": "Glucose Reading",
+                    "input_type": "number",
+                    "unit": "mol/l"
+                }
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "colestrol",
+        "tests": [
+            {
+                "name": "HDL",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://loinc.org/",
+                            "code": "2095-8",
+                            "display": "Cholesterol in HDL/Cholesterol.total [Mass Ratio] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "field": {
+                    "f_name": "Colestrol HDL Ratio",
+                    "input_type": "number",
+                    "unit": ""
+                }
+            },
+            {
+                "name": "LDL",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://Ioinc.org/",
+                            "code": "12089-1",
+                            "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "field": {
+                    "f_name": "Colestrol LDL",
+                    "input_type": "number",
+                    "unit": "mg/dL"
+                }
+            }
+        ]
+    }
+]
