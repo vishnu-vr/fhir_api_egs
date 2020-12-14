@@ -18,7 +18,8 @@
                     "f_name": "Percentage Hgb",
                     "input_type": "number",
                     "unit": "% Hgb"
-                }
+                },
+                "isRequired":false
             },
             {
                 "name": "blood sugar",
@@ -35,7 +36,8 @@
                     "f_name": "Glucose Reading",
                     "input_type": "number",
                     "unit": "mol/l"
-                }
+                },
+                "isRequired":true
             }
         ]
     },
@@ -58,7 +60,8 @@
                     "f_name": "Colestrol HDL Ratio",
                     "input_type": "number",
                     "unit": ""
-                }
+                },
+                "isRequired":true
             },
             {
                 "name": "LDL",
@@ -75,7 +78,8 @@
                     "f_name": "Colestrol LDL",
                     "input_type": "number",
                     "unit": "mg/dL"
-                }
+                },
+                "isRequired":true
             }
         ]
     }
